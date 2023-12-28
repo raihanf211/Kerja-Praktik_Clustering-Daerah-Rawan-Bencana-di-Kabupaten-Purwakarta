@@ -1,0 +1,22 @@
+/* Mengubah warna sidebar */
+[data-testid="stSidebar"] {
+  background-image: linear-gradient(
+    #b2a496,
+    #5e3719
+  ); /* Ganti dengan warna yang diinginkan */
+}
+
+/* Mengubah warna latar belakang dropdown pada option_menu */
+.option_menu_container {
+  background-color: #3498db; /* Ganti dengan warna yang diinginkan */
+}
+
+/* Mengubah warna background opsi menu */
+[data-testid="stSidebar"] .st-dq {
+  background-color: #2c3e50; /* Ganti dengan warna yang diinginkan */
+  color: white; /* Warna teks pada opsi menu */
+}
+
+.centered-title {
+  text-align: center;
+}
