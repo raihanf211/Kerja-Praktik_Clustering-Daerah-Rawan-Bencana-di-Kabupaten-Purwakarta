@@ -279,9 +279,9 @@ for result in cluster_results:
 st.sidebar.markdown("---")
 st.sidebar.write("### Informasi Tambahan:")
 st.sidebar.write(
-    "Analisis ini didasarkan pada data kerawanan bencana (Longsor dan Gempa) di setiap kecamatan. "
-    "Metode klasterisasi membantu mengelompokkan kecamatan-kecamatan dengan karakteristik serupa, "
-    "memberikan pemahaman yang lebih baik tentang pola kerawanan bencana di wilayah tersebut."
+    "Analisis ini didasarkan pada data di website Open Data Purwakarta dengan link https://data.purwakarta.go.id yang di miliki oleh Diskominfo dan dikelola oleh Bidang Statistik "
+    "informasi yang didapatkan adalah jumlah desa kelurahan yang mengalami bencana alam Tanah longsor dan Gempa bumi menurut Kecamatan di Kabupaten Purwakarta, Data yang dipakai adalah dari tahun 2014, 2018, dan 2020 dengan jumlah dataset 102 record, "
+    "data bersumber dari Dinas Pemadam Kebakaran dan Penanggulangan Bencana."
 )
 
 st.sidebar.write(
