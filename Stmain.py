@@ -58,7 +58,7 @@ kolom_pengelompokan = ["Longsor", "Gempa"]
 Vulnerability_ranges = [-1, 5, 9, np.inf]
 
 df["Vulnerability Category"] = pd.cut(
-    df[kolom_pengelompokan].mean(axis=0),
+    df[kolom_pengelompokan].mean(axis=1),
     bins=Vulnerability_ranges,
     labels=["Rendah", "Sedang", "Tinggi"],
 )
