@@ -236,9 +236,9 @@ elif selected == "Peta Folium":
 
         # Menyesuaikan warna ikon berdasarkan klaster
         icon_color = (
-            "orange"
+            "green"
             if row["Cluster"] == 0
-            else "green"
+            else "orange"
             if row["Cluster"] == 1
             else "red"
         )
