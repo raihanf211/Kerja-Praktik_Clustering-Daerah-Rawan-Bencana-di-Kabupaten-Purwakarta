@@ -55,7 +55,7 @@ df["Cluster"] = kmeans.fit_predict(X_scaled)
 kolom_pengelompokan = ["Longsor", "Gempa"]
 
 # Kategorikan klaster berdasarkan rentang kerawanan wilayah
-Vulnerability_ranges = [-1, 5, 10, np.inf]
+Vulnerability_ranges = [-1, 5, 9, np.inf]
 
 df["Vulnerability Category"] = pd.cut(
     df[kolom_pengelompokan].mean(axis=1),
